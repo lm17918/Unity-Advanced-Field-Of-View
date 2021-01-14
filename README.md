@@ -4,7 +4,7 @@ In this repository I expand the project called "unity field of view" from https:
 The purpose of this project is to give to the user a more complex simulation of what a point of interest, moving in an environemnt, "sees" inside a specific view radius and field of view.
 
 The environment used in this project is the "Sci-Fi Styled Modular Pack", a free package available on the Unity store. Here three 3DGameobjects capsule are placed, two with the role of being the targets and one controlled by the user with mouse and keyboard.
-<img src="https://github.com/lm17918/unity-Field-of-view-advanced/blob/master/example%201.PNG" width="200">
+![alt text](https://github.com/lm17918/unity-Field-of-view-advanced/blob/master/images/figure1.PNG)
 
 The capsule GameObject controlled by the user has attached a script called "Controller" where the user can set:
 
@@ -17,9 +17,10 @@ The capsule GameObject controlled by the user has attached a script called "Cont
 
 In this environment the capsule GameObject controlled by the user has a field of view, the green pattern, that simulates what the characted can see. The rest of the 360 degrees FOV is shown as a blue pattern (what the capsule would see if it turns around its 360 degrees). When the GameObject controlled by the user is in front of an obstacle that doesn't allow him to see through, the FOV until the obstable is presented as green pattern while the rest of the field of view that is blocked by the obstacle is shown as red. some examples are shown in the pitures below.
 
-<img src="https://github.com/lm17918/unity-Field-of-view-advanced/blob/master/example%201.PNG" width="200">
-<img src="https://github.com/lm17918/unity-Field-of-view-advanced/blob/master/example%201.PNG" width="200">
-<img src="https://github.com/lm17918/unity-Field-of-view-advanced/blob/master/example%201.PNG" width="200">
+![alt text](https://github.com/lm17918/unity-Field-of-view-advanced/blob/master/images/figure2.PNG)
+![alt text](https://github.com/lm17918/unity-Field-of-view-advanced/blob/master/images/figure3.PNG)
+![alt text](https://github.com/lm17918/unity-Field-of-view-advanced/blob/master/images/figure4.PNG)
+![alt text](https://github.com/lm17918/unity-Field-of-view-advanced/blob/master/images/figure5.PNG)
 
 In these picture it is also shown how the two moving targets in the scene change their color entering the field of view of the GameObject controlled by the user.
 This is just an example to show that it is also possible to have a list of the targets inside and outside the field of view and interact with them.
